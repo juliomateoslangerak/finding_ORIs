@@ -1,0 +1,20 @@
+name: finding_oris
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+
+dependencies:
+  # for finding ORIs
+  - samtools==1.13
+  - bedtools==2.30.0
+  - macs2==2.2.7.1
+  # for genome mapping
+  - fastqc==0.11.9
+  - cutadapt==4.0
+  - trimmomatic==0.39
+  - bowtie2==2.4.1
+  # - samtools=1.13  # already included in finding tools. Be sure to uncomment if only using this group
+  - picard==2.2.3.5
+  - multiqc==1.13
+
